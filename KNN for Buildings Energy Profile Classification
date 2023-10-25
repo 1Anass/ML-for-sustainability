@@ -1,0 +1,24 @@
+Dataset: Listing of Building Energy Performance Data 2020
+source: https://beta.data.gov.sg/datasets/d_e86d8a219d0936dbb321ade068a381da/view
+
+Input Features:
+
+Building Type.
+Main Building Function.
+Building Size.
+Gross Floor Area.
+Percentage of Air Conditioned Floor Area.
+Average Monthly Building Occupancy Rate.
+Type of Air Conditioning System.
+Age of Chiller.
+Centralized Air Conditioning Plant Efficiency.
+Year of Last Chiller Plant Audit/Health Check.
+Percentage Usage of LED.
+Installation of Solar PV.
+
+Output classes: 
+Highly Sustainable, Moderately Sustainable, Not Sustainable.
+The output classes are determinde based on the following features: Green Mark Rating and (Current year - Green Mark Year of Award).
+
+Distance metric: custom distance metric that accounts for different types of data.
+
